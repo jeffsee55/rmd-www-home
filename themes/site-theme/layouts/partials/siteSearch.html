@@ -1,0 +1,19 @@
+<section id="search-section" class="relative bg-white m-0">
+
+<div id="menuSelect"></div>
+
+<div id="searchbox" class="flex flex-wrap"></div>
+
+<div id="hits"></div>
+<div id="pagination"></div>
+
+<script type="text/html" id="hit-template">
+    <a class="no-underline" href="#" onclick="window.location={{ "{{{ url }}}" }}">
+  <div class="p-4 m-4 bg-white hit">
+    <div class="text-center hit-content">
+      <h2 class="text-2xl font-semibold m-0 pb-2 leading-tight hit-name">{{ "{{{ title }}}" }}</h2>
+      <p class="text-lg font-thin m-0">{{ "{{{ excerpt }}}" }}</p>
+    </div>
+  </div>
+</a>
+</script>

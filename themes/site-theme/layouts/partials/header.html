@@ -1,0 +1,61 @@
+<style>
+.content-box h1 {
+  font-size: 1.875rem!important;
+  font-weight: 300!important;
+  font-family: Roboto,sans-serif!important;
+  padding-bottom: 1.2rem;
+}
+.content-box p {
+  font-size: .8rem!important;
+  font-weight: 300!important;
+  font-family: Merriweather Sans,sans-serif!important;
+  padding-bottom: 1.2rem;
+}
+.content-box ul {
+  list-style: disc;
+  padding-left: 2rem;
+  padding-bottom: 1.2rem;
+}
+</style>
+
+<div id="header-functions" class="">
+
+<section id="header" class="lg:px-12 mx-auto">
+  <div class="flex flex-wrap items-center py-3 px-4 md:px-6 select-none header-box">
+    <a id="logo" class="w-1/2 md:w-1/3 lg:w-1/4 mr-auto" href="/">
+      <img class="w-48" src="{{ if .Site.Params.tracking.cloudinaryUrl }}{{ .Site.Params.tracking.cloudinaryUrl }}{{ else }}{{ end }}{{ .Site.Params.logos.logo }}">
+    </a>
+    {{ partial "siteNavi.html" . }}
+  </div>
+  {{ partial "siteSearch.html" . }}
+</section>
+
+<div class="bg-black h-screen mobile-menu">
+  <div class="py-3 px-4 md:px-6 flex flex-wrap items-center select-none">
+    <a id="mobile-menu-logo" class="w-1/2 md:w-1/3 text-left" href="/">
+      <img class="w-48" src="{{ if .Site.Params.tracking.cloudinaryUrl }}{{ .Site.Params.tracking.cloudinaryUrl }}{{ else }}{{ end }}{{ .Site.Params.logos.mobileLogo }}">
+    </a>
+    <i class="w-1/2 md:w-2/3 text-3xl text-white text-right fas fa-times close-menu"></i>
+  </div>
+  <div class="flex flex-wrap pt-12 mobile-menu-list">
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.mobile }}
+    {{ if .HasChildren }}
+  <div class="w-full mx-auto pb-8 text-left">
+  <a class="text-white no-underline">
+    {{ .Pre }}
+      <span>{{ .Name }}</span>
+  </a>
+    {{ range .Children }}
+    <div class="flex flex-wrap p-1">
+        <a href="{{ .URL }}" class="w-full text-3xl text-white opacity-50 no-underline leading-tight menu-item">{{ .Name }}</a>
+    </div>
+    {{ end }}
+  </div>
+  {{ else }}
+      <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}w-full mx-auto pb-8 text-left text-white text-4xl md:text-5xl font-thin no-underline" href="{{.URL}}">{{ .Name }}</a>
+    {{ end }}{{ end }}
+  </div>
+</div>
+
+</div>

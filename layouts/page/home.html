@@ -1,0 +1,38 @@
+{{ define "main" }}
+<div class="flex flex-wrap bg-gray-100 border-t border-t-gray-200 py-8">
+    <div class="w-5/6 mx-auto border-b-4">
+        <h1 class="font-Robo font-bold text-4xl mb-5"><span class="bg-rem-blue px-3 py-1 text-white">Apps</span></h1>
+    </div>
+    <div class="flex flex-wrap w-5/6 mx-auto pt-8">
+        <div class="w-11/12 lg:w-3/4 lg:pr-8 content-box">
+            {{ .Content }}
+        </div>
+        <div class="w-11/12 lg:w-1/4">
+            <div class="bg-white font-Robo py-2 px-0 border rounded-lg apps-menu">
+                {{ $currentNode := . }}
+                {{ range .Site.Menus.apps }}
+                {{ if .HasChildren }}
+                <div class="select-none py-2 border-b dropdown">
+                    <a class="no-underline desktop-menu-item" data-toggle="dropdown" id="{{ .Name | urlize }}-dropdown" role="button" aria-expanded="false"><p class="text-base font-light opacity-75 hover:opacity-100 px-3 leading-tight">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span><i class="text-xs pl-1 fas fa-caret-down"></i>
+                    </p>
+                    </a>
+                    <div aria-labelledby="{{ .Name | urlize }}-dropdown" class="bg-rem-blue -mt-2 ml-5 dropdown-menu rounded" role="menu">
+                    {{ range .Children }}
+                        <div class="flex flex-wrap select-none p-1">
+                            <a href="{{ .URL }}" class="w-full text-xs text-white no-underline menu-item">{{ .Name }}</a>
+                        </div>
+                    {{ end }}
+                </div>
+                </div>
+                    {{ else }}
+                <div class="select-none border-b py-2">
+                    <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} no-underline desktop-menu-item" href="{{.URL}}"><p class="text-base font-light opacity-75 hover:opacity-100 px-3 leading-tight">{{ .Pre }}{{ .Name }}</p></a>
+                </div>
+                    {{ end }}{{ end }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
