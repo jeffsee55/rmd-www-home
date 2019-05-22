@@ -1,7 +1,7 @@
-baseURL = "https://gz-default.netlify.com/"
+baseURL = "https://remdocs.netlify.com/"
 languageCode = "en-us"
 theme = "site-theme"
-title = "Example"
+title = "SecureONE Docs DEMO"
 enableRobotsTXT = true
 
 [params.meta]
