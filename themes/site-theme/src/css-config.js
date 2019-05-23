@@ -186,7 +186,7 @@ module.exports = {
       auto: 'auto',
       ...theme('spacing'),
       full: '100%',
-      '98': '6.125rem',
+      '60vh': '60vh',
       screen: '100vh',
     }),
     minWidth: {

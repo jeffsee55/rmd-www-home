@@ -31,3 +31,42 @@ Consider reaching out to GitHub Support directly using the contact form for:
 - feedback about GitHub products
 
 If you're a Marketplace integrator, contact the Marketplace team for questions or help with your Marketplace integration.
+
+# Requesting support
+
+For questions, bug reports, and discussions about GitHub Apps, OAuth Apps, and API development, explore the GitHub API Development and Support Forum. The forum is moderated and maintained by GitHub staff, but questions posted to the forum are not guaranteed to receive a reply from GitHub staff.
+
+Consider reaching out to GitHub Support directly using the contact form for:
+
+- guaranteed response from GitHub staff
+- support requests involving sensitive data or private concerns
+- feature requests
+- feedback about GitHub products
+
+If you're a Marketplace integrator, contact the Marketplace team for questions or help with your Marketplace integration.
+
+# Requesting support
+
+For questions, bug reports, and discussions about GitHub Apps, OAuth Apps, and API development, explore the GitHub API Development and Support Forum. The forum is moderated and maintained by GitHub staff, but questions posted to the forum are not guaranteed to receive a reply from GitHub staff.
+
+Consider reaching out to GitHub Support directly using the contact form for:
+
+- guaranteed response from GitHub staff
+- support requests involving sensitive data or private concerns
+- feature requests
+- feedback about GitHub products
+
+If you're a Marketplace integrator, contact the Marketplace team for questions or help with your Marketplace integration.
+
+# Personal Access Tokens (PATs)
+
+For questions, bug reports, and discussions about GitHub Apps, OAuth Apps, and API development, explore the GitHub API Development and Support Forum. The forum is moderated and maintained by GitHub staff, but questions posted to the forum are not guaranteed to receive a reply from GitHub staff.
+
+Consider reaching out to GitHub Support directly using the contact form for:
+
+- guaranteed response from GitHub staff
+- support requests involving sensitive data or private concerns
+- feature requests
+- feedback about GitHub products
+
+If you're a Marketplace integrator, contact the Marketplace team for questions or help with your Marketplace integration.

@@ -1,13 +1,7 @@
 {{ define "main" }}
 <div class="flex flex-wrap bg-gray-100 border-t border-t-gray-200 py-8">
-    <div class="w-5/6 mx-auto border-b-4">
-        <h1 class="font-Robo font-bold text-4xl mb-5"><span class="bg-rem-blue px-3 py-1 text-white">Apps</span></h1>
-    </div>
-    <div class="flex flex-wrap w-5/6 mx-auto pt-8">
-        <div class="w-11/12 lg:w-3/4 lg:pr-8 content-box">
-            {{ .Content }}
-        </div>
-        <div class="w-11/12 lg:w-1/4">
+    <div class="flex flex-wrap w-full mx-auto lg:px-5">
+        <div class="hidden lg:inline w-full lg:w-2/12">
             <div class="bg-white font-Robo py-2 px-0 border rounded-lg apps-menu">
                 {{ $currentNode := . }}
                 {{ range .Site.Menus.apps }}
@@ -32,6 +26,17 @@
                 </div>
                     {{ end }}{{ end }}
             </div>
+        </div>
+        <div class="w-11/12 lg:w-8/12 mx-auto px-2 lg:px-5 content-box">
+            <div class="w-full mx-auto">
+                <h1 class="font-Robo font-bold text-4xl"><span class="bg-rem-blue px-3 py-1 text-white">Apps</span></h1>
+            </div>
+            <div class="bg-gray-200 p-2 lg:h-60vh lg:overflow-y-scroll">
+                {{ .Content }}
+            </div>
+        </div>
+        <div class="hidden lg:inline w-2/12 lg:pr-8 text-sm font-Robo">
+            {{ .TableOfContents }}
         </div>
     </div>
 </div>
