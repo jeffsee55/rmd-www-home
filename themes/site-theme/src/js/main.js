@@ -1,13 +1,8 @@
 import styles from './../css/main.css';
 import $ from 'jquery';
-import AOS from 'aos';
-import './scriptTools/elevator.js';
-import './scriptTools/bootstrapDropdown.js';
+import './scriptTools/bootstrapCollapse.js';
 
-AOS.init({
-    disable: 'mobile',
-    once: true
-});
+window.jQuery = window.$ = require('jquery');
 
 $(function() {
   $(".mobile-menu-button").click(function() {
@@ -32,5 +27,18 @@ $(function() {
   $(".mobile-menu-item").click(function() {
     $('.mobile-menu').removeClass("mobile-menu-toggle");
     $('body').removeClass("overflow-hidden");
+  });
+});
+
+$(function() {
+  $(".ul-caret").click(function() {
+    $(this).find('i').toggleClass('fa-caret-down fa-caret-up')
+  });
+});
+
+$(function() {
+  $(".search-button").click(function() {
+    $('#header').toggleClass("z-50");
+    $('#search-section').toggleClass("opacity-0");
   });
 });

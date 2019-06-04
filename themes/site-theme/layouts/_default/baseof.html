@@ -7,7 +7,9 @@
 {{ block "header" . }}{{ partial "header.html" . }}{{ end }}
 
 <main role="main">
-{{ block "main" . }}{{ end }}
+{{ block "main" . }}
+{{ partial "siteSearch.html" . }}
+{{ end }}
 </main>
 
 {{ block "footer" . }}{{ partial "footer.html" . }}{{ end }}

@@ -26,14 +26,18 @@
   background-color: #e2e8f0;
   transition: .2s;
 }
+
+#search-section {
+  transition: .2s;
+}
 </style>
 
 <div id="header-functions" class="">
 
-<section id="header" class="lg:px-12 mx-auto">
+<section id="header" class="w-full lg:fixed top-0 bg-color-262633 mx-auto">
   <div class="flex flex-wrap items-center py-3 px-4 md:px-6 select-none header-box">
     <a id="logo" class="w-1/2 md:w-1/3 lg:w-1/4 mr-auto" href="/">
-      <img class="w-48" src="{{ if .Site.Params.tracking.cloudinaryUrl }}{{ .Site.Params.tracking.cloudinaryUrl }}{{ else }}{{ end }}{{ .Site.Params.logos.logo }}">
+      <img class="w-32" src="{{ if .Site.Params.tracking.cloudinaryUrl }}{{ .Site.Params.tracking.cloudinaryUrl }}{{ else }}{{ end }}{{ .Site.Params.logos.logo }}">
     </a>
     {{ partial "siteNavi.html" . }}
   </div>
@@ -47,7 +51,7 @@
     </a>
     <i class="w-1/2 md:w-2/3 text-3xl text-white text-right fas fa-times close-menu"></i>
   </div>
-  <div class="flex flex-wrap pt-12 mobile-menu-list">
+  <div class="flex flex-wrap pt-5 mobile-menu-list">
     {{ $currentNode := . }}
     {{ range .Site.Menus.mobile }}
     {{ if .HasChildren }}
@@ -63,7 +67,7 @@
     {{ end }}
   </div>
   {{ else }}
-      <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}w-full mx-auto pb-8 text-left text-white text-4xl md:text-5xl font-thin no-underline" href="{{.URL}}">{{ .Name }}</a>
+      <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}w-full mx-auto pb-8 text-center text-white text-4xl md:text-5xl font-thin no-underline" href="{{.URL}}">{{ .Name }}{{ .Pre }}</a>
     {{ end }}{{ end }}
   </div>
 </div>

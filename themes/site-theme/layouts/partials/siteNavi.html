@@ -18,7 +18,8 @@
   </div>
   </div>
   {{ else }}
-  <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} text-xl text-black opacity-100 no-underline pr-5 select-none desktop-menu-item" href="{{.URL}}">{{ .Pre }}{{ .Name }}</a>
+  <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} text-xl text-white opacity-100 no-underline pr-5 select-none search-button desktop-menu-item" href="#search-section" data-toggle="collapse"><span class="pr-1">{{ .Pre }}</span>{{ .Name }}</a>
+
   {{ end }}{{ end }}
 </div>
 

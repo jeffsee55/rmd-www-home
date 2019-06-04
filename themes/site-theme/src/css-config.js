@@ -7,6 +7,8 @@ module.exports = {
 
       'rem-blue': '#00accd',
       'rem-red': '#93191f',
+      'color-262633': '#262633',
+      'color-141422': '#141422',
 
       'blk-overlay': 'rgba(34,34,34,0.3)',
       transparent: 'transparent',
@@ -48,6 +50,7 @@ module.exports = {
       '64': '16rem',
       '72': '18rem',
       '80': '19rem',
+      '100': '30rem',
     },
     screens: {
       sm: '576px',
