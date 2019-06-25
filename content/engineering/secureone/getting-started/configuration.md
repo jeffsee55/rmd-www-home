@@ -1,11 +1,13 @@
 ---
-date: "2019-04-24T05:00:00+00:00"
-type: "page"
-layout: "home"
-title: "Configuration"
+date: 2019-04-24T05:00:00+00:00
+type: page
+layout: home
+title: Configuration
 menu:
   main:
-    parent: "Getting Started"
+    parent: Getting Started
+    weight: 2
+
 ---
 # Configuration
 

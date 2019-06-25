@@ -1,8 +1,11 @@
 ---
-date: "2019-04-24T05:00:00+00:00"
-type: "page"
-layout: "home"
-title: "SecureONE"
-id: "secureone"
-menu: "main"
+date: 2019-04-24T05:00:00+00:00
+type: page
+layout: home
+title: SecureONE
+id: secureone
+menu:
+  main:
+    weight: 1
+
 ---

@@ -1,13 +1,14 @@
 ---
-date: "2019-04-24T05:00:00+00:00"
-type: "page"
-layout: "home"
-title: "Installation"
+date: 2019-04-24T05:00:00+00:00
+type: page
+layout: home
+title: Installation
 menu:
   main:
-    parent: "Getting Started"
----
+    parent: Getting Started
+    weight: 1
 
+---
 # Installation
 
 Here is some content
