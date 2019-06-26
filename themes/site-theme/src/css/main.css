@@ -106,3 +106,7 @@ li {
   padding-left: 10px;
   font-size: 14px;
 }
+
+.active {
+  color: #00accd;
+}
