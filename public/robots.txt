@@ -4,4 +4,4 @@ Disallow: /
 
 
 
-Sitemap: https://remdocs.netlify.com/sitemapindex.xml
+Sitemap: sitemapindex.xml
