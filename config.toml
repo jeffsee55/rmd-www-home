@@ -1,191 +1,181 @@
-baseURL = "https://remdocs.netlify.com/"
+baseURL = "/"
+enableRobotsTXT = true
 languageCode = "en-us"
 theme = "site-theme"
 title = "SecureONE Docs DEMO"
-enableRobotsTXT = true
-
+[mediaTypes."text/noExt"]
+suffixes = ""
+[[menu.apps]]
+identifier = "11"
+name = "Setting up your development environment"
+parent = "5"
+url = "/page-11/"
+weight = 4
+[[menu.apps]]
+identifier = "22"
+name = "Using the GitHub API in your app"
+parent = "5"
+url = "/page-11/"
+weight = 9
+[[menu.apps]]
+identifier = "33"
+name = "Creating CI tests with the Checks API"
+parent = "5"
+url = "/page-11/"
+weight = 14
+[[menu.apps]]
+identifier = "111"
+name = "Setting up your development environment"
+parent = "33"
+url = "/page-11/"
+weight = 3
+[[menu.apps]]
+identifier = "222"
+name = "Using the GitHub API in your app"
+parent = "33"
+url = "/page-11/"
+weight = 8
+[[menu.apps]]
+identifier = "333"
+name = "Creating CI tests with the Checks API"
+parent = "33"
+url = "/page-11/"
+weight = 13
+[[menu.apps]]
+identifier = "1111"
+name = "Setting up your development environment"
+parent = "333"
+url = "/page-11/"
+weight = 2
+[[menu.apps]]
+identifier = "2222"
+name = "Using the GitHub API in your app"
+parent = "333"
+url = "/page-11/"
+weight = 7
+[[menu.apps]]
+identifier = "3333"
+name = "Creating CI tests with the Checks API"
+parent = "333"
+url = "/page-11/"
+weight = 12
+[[menu.apps]]
+identifier = "11111"
+name = "Setting up your development environment"
+parent = "3333"
+url = "/page-11/"
+weight = 1
+[[menu.apps]]
+identifier = "22222"
+name = "Using the GitHub API in your app"
+parent = "3333"
+url = "/page-11/"
+weight = 6
+[[menu.apps]]
+identifier = "33333"
+name = "Creating CI tests with the Checks API"
+parent = "3333"
+url = "/page-11/"
+weight = 11
+[[menu.apps]]
+identifier = "5"
+name = "Quickstart guides"
+url = "/"
+weight = 17
+[[menu.apps]]
+identifier = "4"
+name = "Using content attachments"
+url = "/"
+weight = 16
+[[menu.apps]]
+identifier = "3"
+name = "Migrating OAuth Apps to GitHub Apps"
+url = "/"
+weight = 15
+[[menu.apps]]
+identifier = "2"
+name = "Differences between GitHub Apps and OAuth Apps"
+url = "/"
+weight = 10
+[[menu.apps]]
+identifier = "1"
+name = "About Apps"
+url = "/"
+weight = 5
+[[menu.desktop]]
+identifier = "search"
+name = "Search"
+pre = "<i class='fas fa-search'></i>"
+url = "/search/"
+weight = 1
+[[menu.mobile]]
+identifier = "search-mobile"
+name = "Search"
+pre = "<i class='text-white fas fa-search'></i>"
+url = "/search/"
+weight = 1
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+[outputFormats.redirects]
+baseName = "_redirects"
+isPlainText = true
+mediaType = "text/noExt"
+path = "/"
+[outputFormats.sitemapindex]
+baseName = "sitemapindex"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.sitepages]
+baseName = "sitepages"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputFormats.siteposts]
+baseName = "siteposts"
+isPlainText = false
+mediaType = "application/xml"
+path = "/"
+[outputs]
+home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS", "redirects", "Algolia"]
+[params.Logos]
+darkLogo = "/pageimg/example-logo.png"
+logo = "/e_colorize,co_white/v1558544888/Docs/logo-lite.png"
+mobileLogo = "/e_colorize,co_white/v1558544888/Docs/logo-lite.png"
+[params.address]
+city = "Statesboro"
+state = "GA"
+street = "P.O. Box 134"
+zip = 30459
+[params.algolia]
+appId = "P0LE47ZX3Q"
+indexName = "flipThrough"
+searchKey = "3b97d2bec4c1b3df413f747e3134e0d4"
+[params.contactNumbers]
+Fax = "555.555.5555"
+Phone = "555.555.5555"
+[params.email]
+email = "example@example.com"
+[params.extraTools]
+algoliaSearch = true
+elevatorJS = true
+fontAwesome = true
 [params.meta]
 description = "This domain is established to be used for illustrative examples in documents. You may use this domain in examples without prior coordination or asking for permission."
-
-[[menu.desktop]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 3
-    pre = "<i class='fas fa-search'></i>"
-[[menu.mobile]]
-    identifier = "search-mobile"
-    name = "Search"
-    url = "/search/"
-    weight = 3
-    pre = "<i class='text-white fas fa-search'></i>"
-[[menu.apps]]
-    identifier = "1"
-    name = "About Apps"
-    url = "/"
-    weight = 1
-[[menu.apps]]
-    identifier = "2"
-    name = "Differences between GitHub Apps and OAuth Apps"
-    url = "/"
-    weight = 2
-[[menu.apps]]
-    identifier = "3"
-    name = "Migrating OAuth Apps to GitHub Apps"
-    url = "/"
-    weight = 3
-[[menu.apps]]
-    identifier = "4"
-    name = "Using content attachments"
-    url = "/"
-    weight = 4
-[[menu.apps]]
-    identifier = "5"
-    name = "Quickstart guides"
-    url = "/"
-    weight = 5
-        [[menu.apps]]
-            identifier = "11"
-            name = "Setting up your development environment"
-            url = "/page-11/"
-            weight = 1
-            parent = "5"
-        [[menu.apps]]
-            identifier = "22"
-            name = "Using the GitHub API in your app"
-            url = "/page-11/"
-            weight = 2
-            parent = "5"
-        [[menu.apps]]
-            identifier = "33"
-            name = "Creating CI tests with the Checks API"
-            url = "/page-11/"
-            weight = 3
-            parent = "5"
-                [[menu.apps]]
-                    identifier = "111"
-                    name = "Setting up your development environment"
-                    url = "/page-11/"
-                    weight = 1
-                    parent = "33"
-                [[menu.apps]]
-                    identifier = "222"
-                    name = "Using the GitHub API in your app"
-                    url = "/page-11/"
-                    weight = 2
-                    parent = "33"
-                [[menu.apps]]
-                    identifier = "333"
-                    name = "Creating CI tests with the Checks API"
-                    url = "/page-11/"
-                    weight = 3
-                    parent = "33"
-                        [[menu.apps]]
-                            identifier = "1111"
-                            name = "Setting up your development environment"
-                            url = "/page-11/"
-                            weight = 1
-                            parent = "333"
-                        [[menu.apps]]
-                            identifier = "2222"
-                            name = "Using the GitHub API in your app"
-                            url = "/page-11/"
-                            weight = 2
-                            parent = "333"
-                        [[menu.apps]]
-                            identifier = "3333"
-                            name = "Creating CI tests with the Checks API"
-                            url = "/page-11/"
-                            weight = 3
-                            parent = "333"
-                                [[menu.apps]]
-                                    identifier = "11111"
-                                    name = "Setting up your development environment"
-                                    url = "/page-11/"
-                                    weight = 1
-                                    parent = "3333"
-                                [[menu.apps]]
-                                    identifier = "22222"
-                                    name = "Using the GitHub API in your app"
-                                    url = "/page-11/"
-                                    weight = 2
-                                    parent = "3333"
-                                [[menu.apps]]
-                                    identifier = "33333"
-                                    name = "Creating CI tests with the Checks API"
-                                    url = "/page-11/"
-                                    weight = 3
-                                    parent = "3333"
-[params.contactNumbers]
-    Fax = "555.555.5555"
-    Phone = "555.555.5555"
-[params.Logos]
-    darkLogo = "/pageimg/example-logo.png"
-    logo = "/e_colorize,co_white/v1558544888/Docs/logo-lite.png"
-    mobileLogo = "/e_colorize,co_white/v1558544888/Docs/logo-lite.png"
-[params.utilityImages]
-    thankyouBackground = "/pageimg/thank-you-contact.jpg"
-[params.address]
-    city = "Statesboro"
-    state = "GA"
-    street = "P.O. Box 134"
-    zip = 30459
-[params.email]
-    email = "example@example.com"
-[params.tracking]
-    googleAnalytics = ""
-    cloudinaryUrl = "https://res.cloudinary.com/remediant/image/upload"
-[params.socialLinks]
-    facebook = ""
-    insta = ""
-    linkedin = ""
-    pinterest = ""
 [params.publishingSettings]
-    siteinProduction = false
-
-[mediaTypes]
-  [mediaTypes."text/noExt"]
-    suffixes = ""
-
+siteinProduction = false
+[params.socialLinks]
+facebook = ""
+insta = ""
+linkedin = ""
+pinterest = ""
+[params.tracking]
+cloudinaryUrl = "https://res.cloudinary.com/remediant/image/upload"
+googleAnalytics = ""
+[params.utilityImages]
+thankyouBackground = "/pageimg/thank-you-contact.jpg"
 [sitemap]
-    filename = "sitepages.xml"
-
-[outputFormats]
-    [outputFormats.sitemapindex]
-        baseName = "sitemapindex"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.sitepages]
-        baseName = "sitepages"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.siteposts]
-        baseName = "siteposts"
-        isPlainText = false
-        mediaType = "application/xml"
-        path = "/"
-    [outputFormats.redirects]
-        baseName = "_redirects"
-        isPlainText = true
-        mediaType = "text/noExt"
-        path = "/"
-    [outputFormats.Algolia]
-        baseName = "algolia"
-        isPlainText = true
-        mediaType = "application/json"
-        notAlternative = true
-
-[outputs]
-  home = ["HTML", "sitemapindex", "sitepages", "siteposts", "RSS", "redirects", "Algolia"]
-
-[params.algolia]
-    appId = "P0LE47ZX3Q"
-    searchKey = "3b97d2bec4c1b3df413f747e3134e0d4"
-    indexName = "flipThrough"
-
-[params.extraTools]
-    elevatorJS = true
-    algoliaSearch = true
-    fontAwesome = true
+filename = "sitepages.xml"
