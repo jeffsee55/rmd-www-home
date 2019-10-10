@@ -1,7 +1,8 @@
-baseURL: /
+---
+baseURL: "/"
 languageCode: en-us
 title: Remediant Home
-theme: "rmd-base"
+theme: rmd-base
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
