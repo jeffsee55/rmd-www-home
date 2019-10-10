@@ -1,5 +1,5 @@
-{{ printf "%#v" $.Site.Menus }}
-{{ range .Site.Menus }}
+{{ printf "%#v" $.Site.Menus.main }}
+{{ range .Site.Menus.teams }}
     <hr />
     <b>{{ printf "%#v" . }}</b>
 {{ end }}

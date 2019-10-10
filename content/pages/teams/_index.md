@@ -1,6 +1,6 @@
 ---
-title: Sales
+title: Teams
 menu:
-  teams:
+  main:
     weight: 1
 ---
