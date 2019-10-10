@@ -1,4 +1,0 @@
-{{ if eq .Site.Params.extraTools.algoliaSearch true }}
-{{ else }}
-/search / 301
-{{ end }}

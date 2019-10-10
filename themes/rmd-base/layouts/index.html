@@ -1,0 +1,5 @@
+{{ printf "%#v" $.Site.Menus }}
+{{ range .Site.Menus }}
+    <hr />
+    <b>{{ printf "%#v" . }}</b>
+{{ end }}
