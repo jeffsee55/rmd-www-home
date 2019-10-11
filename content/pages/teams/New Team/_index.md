@@ -1,7 +1,7 @@
 ---
-title: Teams
+title: My New Team
 menu:
-  main:
+  teams:
     weight: 5
 
 ---
