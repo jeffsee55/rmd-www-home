@@ -20,11 +20,11 @@
       {{ if .Site.Menus.teams }}
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="teams" aria-expanded="false">Teams <span class="caret"></span></a>
-          {{ range .Site.Menus.teams }}
           <div class="dropdown-menu" aria-labelledby="teams">
+            {{ range .Site.Menus.teams }}
             <a class="dropdown-item" href="{{.URL}}">{{ .Name }}</a>
+            {{ end }}
           </div>
-          {{ end }}
       </li>
       {{ end }}
       <li class="nav-item">
