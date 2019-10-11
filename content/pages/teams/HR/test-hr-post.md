@@ -4,5 +4,8 @@ draft = true
 layout = ""
 title = "Test HR Post"
 type = ""
+[menu.main]
+name = "HR Post"
+weight = 3
 
 +++
