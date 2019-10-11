@@ -2,6 +2,7 @@
 title: All
 menu:
   main:
-    weight: 3
+    weight: 1
+    parent: Teams
 
 ---
