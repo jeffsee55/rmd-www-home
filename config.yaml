@@ -13,5 +13,5 @@ menu:
   - pre: "<i class='fa fa-heart'></i>"
     url: "/about/"
     name: about hugo
-    weight: 2
+    weight: 1
     identifier: about
