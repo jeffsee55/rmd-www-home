@@ -15,4 +15,5 @@ fields:
   name: title
   label: title
 pages:
+- content/pages/teams/index.md
 - content/pages/teams/New Team/new-team-test-page.md
