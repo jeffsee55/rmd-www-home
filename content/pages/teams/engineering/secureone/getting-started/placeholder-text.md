@@ -8,10 +8,6 @@ tags:
 categories:
 - syntax
 toc: true
-menu:
-  teams:
-    name: Something else
-    weight: 3
 
 ---
 # Vagus elidunt
