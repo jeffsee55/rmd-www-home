@@ -10,13 +10,8 @@ params:
   logo: https://res.cloudinary.com/remediant/image/upload/w_50,h_50/v1544975038/header-logo.png
 menu:
   main:
-  - pre: "<i class='fa fa-road'></i>"
-    url: "/getting-started/"
-    name: getting started
-    post: "<span class='alert'>New!</span>"
-    weight: 2
   - pre: "<i class='fa fa-heart'></i>"
     url: "/about/"
     name: about hugo
-    weight: 1
+    weight: 2
     identifier: about
