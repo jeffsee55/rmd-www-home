@@ -2,6 +2,6 @@
 title: My New Team
 menu:
   teams:
-    weight: 5
+    weight: 2
 
 ---

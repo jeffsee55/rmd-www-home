@@ -2,6 +2,6 @@
 title: All
 menu:
   main:
-    weight: 10
+    weight: 3
 
 ---

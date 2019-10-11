@@ -2,6 +2,6 @@
 title: Teams
 menu:
   main:
-    weight: 5
+    weight: 2
 
 ---
