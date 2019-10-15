@@ -5,6 +5,9 @@ metaDescription = "so meta"
 tags = ["SecureONE"]
 title = "forestry-doc"
 type = "page"
+[menu.sidenav]
+name = "Forestry Menu Item"
+weight = 4
 
 +++
 Here is a new item from Forestry.io

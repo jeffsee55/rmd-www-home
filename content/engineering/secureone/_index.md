@@ -3,7 +3,7 @@ title: SecureONE
 menu:
   sidenav:
     identifier: secureone
-    parent: "engineering"
-    weight: 1
+    parent: engineering
+    weight: 3
 
 ---

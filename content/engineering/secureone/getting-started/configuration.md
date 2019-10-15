@@ -5,13 +5,14 @@ layout: home
 title: Configuration
 metaDescription: Configuration
 tags:
-  - SecureONE
-  - Config
-  - Tutorial
+- SecureONE
+- Config
+- Tutorial
 menu:
   sidenav:
     parent: secureone
     weight: 1
+
 ---
 # Configuration
 
