@@ -27,7 +27,7 @@ fields:
     min: '2'
     max: '2'
     source:
-      type: documents
+      type: pages
       section: eng
       file: content/engineering/secureone/getting-started/_index.md
   label: Menu
