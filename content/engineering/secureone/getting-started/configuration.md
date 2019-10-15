@@ -10,7 +10,7 @@ tags:
 - Tutorial
 menu:
   sidenav:
-    parent: secureone
+    parent: SecureONE
     weight: 1
 
 ---

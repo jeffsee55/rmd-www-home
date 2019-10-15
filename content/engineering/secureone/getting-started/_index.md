@@ -2,7 +2,7 @@
 title: Getting Started
 menu:
   sidenav:
-    parent: secureone
+    parent: SecureONE
     weight: 2
 
 ---
