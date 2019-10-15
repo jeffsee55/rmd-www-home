@@ -1,6 +1,6 @@
-{{ printf "%#v" $.Site.Menus.main }}
-{{ range .Site.Menus.main }}
+{{ printf "%#v" $.Site.Sections }}
+{{ range .Site.Sections }}
     <hr />
-    <b>{{ printf "%#v" . }}</b>
-    <b>Has Children: {{ .HasChildren }}</b>
+    <b>{{ printf "%#v" .Name }}</b>
+    <b>{{ printf "%#v" .Sections }}</b>
 {{ end }}

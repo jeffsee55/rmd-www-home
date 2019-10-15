@@ -1,9 +1,27 @@
 <aside class="col-12 col-md-3 col-xl-2 bd-sidebar">
     {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
+    <h5>{{ .FirstSection }}</h5>
+    {{ range .FirstSection.Sections }}
+        <b>"{{ .Name }}" - {{ .Summary  }}</b>
+        <b>"{{ .Name }}" - {{ printf "%#v" . }}</b>
+    {{ end }}
+
+    {{ range .Site.Menus.sidenav }}
         {{ template "main_nav_item" (dict "currentPage" $currentPage "content" .) }}
     {{ end }}
 </aside>
+
+{{ define "side_nav_item" }}
+    <ul>
+        {{ .Name }}
+        {{ range .Sections }}
+            {{ range .Pages }}
+                <li> {{ .Name }} </li>
+            {{ end }}
+            {{ template "side_nav_item" . }}
+        {{ end }}
+    </ul>
+{{ end }}
 
 {{ define "main_nav_item" }}
     {{ $currentPage := .currentPage }}

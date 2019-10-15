@@ -1,0 +1,12 @@
+main:
+  - identifier: about
+    name: about hugo
+    pre: <i class='fa fa-heart'></i>
+    url: /about/
+    weight: -110
+
+sidenav:
+  - identifier: engineering
+    name: Engineering
+    url: /engineering
+    weight: 3
