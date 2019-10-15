@@ -8,8 +8,3 @@ pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
 params:
   logo: https://res.cloudinary.com/remediant/image/upload/w_50,h_50/v1544975038/header-logo.png
-menu:
-  main:
-  - name: Human Resources
-    parent: main
-    weight: 1
