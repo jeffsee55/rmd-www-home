@@ -1,0 +1,22 @@
+---
+label: Test-menu-eng
+hide_body: false
+fields:
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: type
+  label: type
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: metaDescription
+  label: metaDescription
+- type: list
+  name: tags
+  label: tags
