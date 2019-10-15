@@ -5,13 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content
-  label: Pages
-  create: all
-  match: "*"
-- type: directory
-  path: content/pages
-  label: Pages
+  path: content/engineering
+  label: Eng
   create: all
   match: "**/*"
 - type: directory
