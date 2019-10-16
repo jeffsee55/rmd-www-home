@@ -1,0 +1,26 @@
+---
+label: Employee
+hide_body: true
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: photo
+  label: photo
+- type: text
+  name: title
+  label: title
+- type: text
+  name: manager
+  label: manager
+- type: text
+  name: manages
+  label: manages
+- type: field_group_list
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: twitter
+    label: twitter
