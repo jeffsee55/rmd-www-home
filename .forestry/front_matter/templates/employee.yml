@@ -14,6 +14,18 @@ fields:
 - type: text
   name: manager
   label: manager
+- name: manager2
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: employees
+      file: 
+      path: 
+  label: Manager
 - type: text
   name: manages
   label: manages
@@ -24,3 +36,18 @@ fields:
   - type: text
     name: twitter
     label: twitter
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: instagram
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: facebook
+  - name: website
+    type: text
+    config:
+      required: false
+    label: website
