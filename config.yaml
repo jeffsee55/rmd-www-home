@@ -2,7 +2,7 @@
 baseURL: "/"
 languageCode: en-us
 title: Remediant Home
-theme: rmd-base
+theme: rmd
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
