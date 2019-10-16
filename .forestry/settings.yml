@@ -5,8 +5,8 @@ admin_path: https://home.remediant.io/admin
 webhook_url: 
 sections:
 - type: directory
-  path: content/engineering
-  label: Eng
+  path: content
+  label: Pages
   create: all
   match: "**/*"
 - type: directory
