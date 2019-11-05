@@ -1,7 +1,0 @@
-baseURL = "/"
-enableRobotsTXT = true
-languageCode = "en-us"
-theme = "site-theme"
-title = "SecureONE Docs DEMO"
-[mediaTypes."text/noExt"]
-suffixes = ""
