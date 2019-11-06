@@ -11,7 +11,7 @@ jobs:
       - checkout
       - run:
           name: "Build Website with Hugo"
-          command: HUGO_ENV=production hugo -v -s src/
+          command: HUGO_ENV=production hugo -D -v
       - run:
           name: "Test The Website"
           command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
