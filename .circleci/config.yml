@@ -3,6 +3,12 @@ workflows:
   main:
     jobs:
       - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
 jobs:
   build:
     docker:
@@ -15,10 +21,17 @@ jobs:
       - run:
           name: "Build Website with Hugo"
           command: HUGO_ENV=production hugo -D -v
-      - run:
-          name: "Test The Website"
-          command: htmlproofer public --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - persist_to_workspace:
-          root: src
+          root: ./
           paths:
             - public
+  deploy:
+    docker:
+      - image: cibuilds/hugo:0.58.3
+    steps:
+      - attach_workspace:
+          at: ./public
+      - run:
+          name: "Deploy to S3"
+          command: |
+            echo 'Deploying...'

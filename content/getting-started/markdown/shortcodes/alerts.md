@@ -23,6 +23,7 @@ Code:
 {{</* /alert */>}}
 ```
 renders as:
+
 {{< alert type="warning" title="Warning!">}}
     <p class="mb-0">Best check yo self, you're not looking too good. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, <a href="#warning" class="alert-link">vel scelerisque nisl consectetur et</a>.</p>
 {{< /alert >}}
@@ -41,6 +42,7 @@ Example:
 {{</* /alert */>}}
 ```
 renders as:
+
 {{< alert >}}
     <strong>Heads up!</strong> This <a href="#info" class="alert-link">alert needs your attention</a>, but it's not super important.
 {{< /alert >}}
