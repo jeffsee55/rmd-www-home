@@ -1,33 +1,21 @@
-version: 2
+version: 2.1
+workflows:
+  main:
+    jobs:
+      - build
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:latest
-    working_directory: ~/hugo
-    environment:
-      HUGO_BUILD_DIR: ~/hugo/public
+      - image: cibuilds/hugo:0.59.1
     steps:
-
-      # install git
-      - run: apk update && apk add git
-
-      # checkout the repository
       - checkout
-
-      # install git submodules for managing third-party dependencies
-      - run: git submodule sync && git submodule update --init
-
-      # - run:
-      #     name: install AWS CLI (first install pip, the Python package manager)
-      #     command: |
-      #       apk add --update python python-dev py-pip build-base
-      #       pip install awscli
-
-      # build with Hugo
-      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
- 
       - run:
-          name: test our generated HTML files
-          command: |
-            htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
-            --empty-alt-ignore --disable-external
+          name: "Build Website with Hugo"
+          command: HUGO_ENV=production hugo -v -s src/
+      - run:
+          name: "Test The Website"
+          command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      - persist_to_workspace:
+          root: src
+          paths:
+            - public
