@@ -20,3 +20,5 @@ fields:
 - type: boolean
   name: toc
   label: toc
+pages:
+- content/product/secureone/secureone-documentation.md
