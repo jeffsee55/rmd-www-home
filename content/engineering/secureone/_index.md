@@ -4,6 +4,6 @@ menu:
   sidenav:
     identifier: SecureONE
     parent: Engineering
-    weight: 1
+    weight: 3
 
 ---
