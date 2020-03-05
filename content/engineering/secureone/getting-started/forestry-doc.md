@@ -6,11 +6,6 @@ title: forestry-doc
 metaDescription: so meta
 tags:
 - SecureONE
-menu:
-  sidenav:
-    name: Forestry Menu Item
-    weight: 7
-    parent: SecureONE
 
 ---
 Here is a new item from Forestry.io

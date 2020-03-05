@@ -2,7 +2,7 @@
 title: Updating this Site
 menu:
   sidenav:
-    name: ''
-    weight: 21
+    weight: 2
+    identifier: getting-started
 
 ---
