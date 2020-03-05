@@ -12,11 +12,6 @@ description: Testing to see if a new page creates a menu entry automatically
 toc: false
 alt_authors_test:
 - employees/tim-keeler.md
-menu:
-  sidenav:
-    name: New Post in Menu
-    weight: 2
-    parent: Markdown (GitHub)
 draft: true
 
 ---
