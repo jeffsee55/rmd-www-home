@@ -57,6 +57,5 @@ fields:
     labelField: 
   label: Multiple Authors
 pages:
-- content/getting-started/markdown/testing-menu-entry.md
 - content/posts/test-post.md
 - content/product/secureone/secureone-documentation.md
