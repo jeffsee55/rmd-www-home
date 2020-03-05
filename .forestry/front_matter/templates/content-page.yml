@@ -51,20 +51,6 @@ fields:
   label: Alt Authors Test
 - name: multiple_authors
   type: field_group_list
-  fields:
-  - name: author
-    type: select
-    default: []
-    config:
-      required: false
-      options: []
-      source:
-        type: pages
-        section: employees
-        file: content/employees/founder-ceo.md
-        path: social
-    label: Author
-    description: Contributing author
   config:
     min: 
     max: 
