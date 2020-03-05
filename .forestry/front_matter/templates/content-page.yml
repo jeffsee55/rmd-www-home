@@ -59,10 +59,10 @@ fields:
       required: false
       options: []
       source:
-        type: documents
+        type: pages
         section: employees
-        file: content/employees/tim-keeler.md
-        path: title
+        file: content/employees/founder-ceo.md
+        path: social
     label: Author
     description: Contributing author
   config:
