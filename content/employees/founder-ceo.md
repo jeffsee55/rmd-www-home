@@ -2,9 +2,12 @@
 manager2: ''
 name: Tim Keeler
 photo: None
-title: Founder & CEO
+title: Tim Keeler
 manager: None
 manages: ELT
 social: []
+job_title: Founder & CEO
+field_group:
+  twitter: ''
 
 ---
