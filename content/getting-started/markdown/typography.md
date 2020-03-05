@@ -7,6 +7,9 @@ authors:
 tags: 
 categories: 
 toc: true
+menu:
+  sidenav:
+    weight: 3
 draft: true
 
 ---
