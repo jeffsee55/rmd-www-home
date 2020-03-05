@@ -6,11 +6,14 @@ fields:
   name: title
   label: Title
   description: Page Title
+- type: datetime
+  name: date
+  label: Date
 - name: authors
   type: select
   default: []
   config:
-    required: true
+    required: false
     options: []
     source:
       type: pages
@@ -18,9 +21,6 @@ fields:
       file: 
       path: 
   label: Authors
-- type: datetime
-  name: date
-  label: Date
 - type: text
   name: description
   label: Description
@@ -49,6 +49,27 @@ fields:
       type: pages
       section: employees
   label: Alt Authors Test
+- name: multiple_authors
+  type: field_group_list
+  fields:
+  - name: author
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: documents
+        section: employees
+        file: content/employees/tim-keeler.md
+        path: title
+    label: Author
+    description: Contributing author
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Multiple Authors
 pages:
 - content/getting-started/markdown/testing-menu-entry.md
 - content/posts/test-post.md
