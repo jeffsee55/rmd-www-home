@@ -9,8 +9,8 @@ fields:
   name: photo
   label: photo
 - type: text
-  name: title
-  label: title
+  name: job_title
+  label: Job Title
 - type: text
   name: manager
   label: manager
@@ -26,9 +26,6 @@ fields:
       file: 
       path: 
   label: Manager
-- type: text
-  name: manages
-  label: manages
 - type: field_group_list
   name: social
   label: social
