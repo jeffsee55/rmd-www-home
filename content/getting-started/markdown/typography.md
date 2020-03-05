@@ -7,10 +7,6 @@ authors:
 tags: 
 categories: 
 toc: true
-menu:
-  sidenav:
-    parent: Markdown (GitHub)
-    weight: 1
 draft: true
 
 ---
