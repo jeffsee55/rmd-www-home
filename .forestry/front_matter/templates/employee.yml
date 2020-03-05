@@ -3,8 +3,10 @@ label: Employee Page
 hide_body: true
 fields:
 - type: text
-  name: name
-  label: name
+  name: title
+  label: Name
+  config:
+    required: true
 - type: text
   name: photo
   label: photo
@@ -48,6 +50,16 @@ fields:
     config:
       required: false
     label: website
+- name: field_group
+  type: field_group
+  config: {}
+  fields:
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  label: Field Group
 pages:
 - content/employees/chief-of-staff.md
 - content/employees/founder-ceo.md
