@@ -2,23 +2,52 @@
 label: General Document
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: title
-  label: title
+  label: Title
+  description: Page Title
+- name: authors
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: employees
+      file: 
+      path: 
+  label: Authors
+- type: datetime
+  name: date
+  label: Date
 - type: text
   name: description
-  label: description
-- type: list
-  name: tags
-  label: tags
-- type: list
-  name: categories
-  label: categories
+  label: Description
+  description: Short description of the page
+- name: tags
+  type: tag_list
+  default: []
+  description: Useful tags to help search for this content
+  label: Tags
+- name: categories
+  type: tag_list
+  default: []
+  description: General category this topic belongs to
+  label: Categories
 - type: boolean
   name: toc
-  label: toc
+  label: Table of Contents
+  description: Enable/disable the table of contents section
+- name: alt_authors_test
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: employees
+  label: Alt Authors Test
 pages:
 - content/product/secureone/secureone-documentation.md

@@ -2,52 +2,52 @@
 label: Employee Page
 hide_body: true
 fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: photo
+  label: photo
+- type: text
+  name: title
+  label: title
+- type: text
+  name: manager
+  label: manager
+- name: manager2
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: employees
+      file: 
+      path: 
+  label: Manager
+- type: text
+  name: manages
+  label: manages
+- type: field_group_list
+  name: social
+  label: social
+  fields:
   - type: text
-    name: name
-    label: name
-  - type: text
-    name: photo
-    label: photo
-  - type: text
-    name: title
-    label: title
-  - type: text
-    name: manager
-    label: manager
-  - name: manager2
-    type: select
-    default: []
+    name: twitter
+    label: twitter
+  - name: instagram
+    type: text
     config:
       required: false
-      options: []
-      source:
-        type: documents
-        section: employees
-        file:
-        path:
-    label: Manager
-  - type: text
-    name: manages
-    label: manages
-  - type: field_group_list
-    name: social
-    label: social
-    fields:
-      - type: text
-        name: twitter
-        label: twitter
-      - name: instagram
-        type: text
-        config:
-          required: false
-        label: instagram
-      - name: facebook
-        type: text
-        config:
-          required: false
-        label: facebook
-      - name: website
-        type: text
-        config:
-          required: false
-        label: website
+    label: instagram
+  - name: facebook
+    type: text
+    config:
+      required: false
+    label: facebook
+  - name: website
+    type: text
+    config:
+      required: false
+    label: website
