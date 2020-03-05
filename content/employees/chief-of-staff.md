@@ -2,14 +2,12 @@
 manager2: ''
 name: Stephen Burgio
 photo: N/A
-title: Chief of Staff
+title: Stephen Burgio
 manager: Tim Keeler
 manages: No One
-social:
-- twitter: ''
-  instagram: ''
-  facebook: ''
-  website: ''
+social: []
 job_title: Chief of Staff
+field_group:
+  twitter: asdf
 
 ---
