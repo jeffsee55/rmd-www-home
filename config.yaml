@@ -3,7 +3,7 @@ baseURL: "/"
 languageCode: en-us
 title: Remediant Home
 theme: rmd
-metaDataFormat: "yaml"
+metaDataFormat: yaml
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
@@ -15,65 +15,65 @@ taxonomies:
   category: categories
 menu:
   sidenav:
-  - name: Markdown (GitHub)
-    parent: getting-started
-    weight: 13
-    identifier: markdown
-  - name: Overview
-    parent: shortcodes
-    weight: 8
-    identifier: shortcodes-overview
-  - name: Updating this Site
-    weight: 11
-    identifier: getting-started
-  - name: Online Editor (Forestry)
-    parent: getting-started
-    weight: 5
-    identifier: forestry
-  - name: Introduction
-    parent: forestry
-    weight: 6
-    identifier: forestry-intro
-  - name: Introduction
-    parent: getting-started
-    weight: 7
-    identifier: introduction
-  - name: Markdown
-    parent: getting-started
-    weight: 12
-    identifier: markdown-all
-  - name: Blockquotes
-    parent: markdown
-    weight: 20
-  - name: Code Highlighting
-    parent: markdown
-    weight: 22
-  - name: Alerts
-    parent: shortcodes
-    weight: 16
-  - name: Shortcodes
-    parent: markdown
-    weight: 23
-    identifier: shortcodes
-  - name: Social Content
-    parent: shortcodes
-    weight: 14
   - name: Flowcharts
     parent: shortcodes
-    weight: 18
-    identifier: flowcharts
-  - name: Introduction
-    parent: markdown
-    weight: 9
-  - name: Lists
-    parent: markdown
-    weight: 19
-  - name: Tables
-    parent: markdown
-    weight: 21
-  - name: Typography
-    parent: markdown
     weight: 15
-  - name: Images
+    identifier: flowcharts
+  - name: Shortcodes
+    parent: markdown
+    weight: 20
+    identifier: shortcodes
+  - name: Markdown
+    parent: getting-started
+    weight: 9
+    identifier: markdown-all
+  - name: Introduction
+    parent: getting-started
+    weight: 4
+    identifier: introduction
+  - name: Introduction
+    parent: forestry
+    weight: 3
+    identifier: forestry-intro
+  - name: Online Editor (Forestry)
+    parent: getting-started
+    weight: 2
+    identifier: forestry
+  - name: Updating this Site
+    weight: 8
+    identifier: getting-started
+  - name: Overview
+    parent: shortcodes
+    weight: 5
+    identifier: shortcodes-overview
+  - name: Markdown (GitHub)
+    parent: getting-started
+    weight: 10
+    identifier: markdown
+  - name: Blockquotes
     parent: markdown
     weight: 17
+  - name: Code Highlighting
+    parent: markdown
+    weight: 19
+  - name: Alerts
+    parent: shortcodes
+    weight: 13
+  - name: Social Content
+    parent: shortcodes
+    weight: 11
+  - name: Introduction
+    parent: markdown
+    weight: 6
+  - name: Lists
+    parent: markdown
+    weight: 16
+  - name: Tables
+    parent: markdown
+    weight: 18
+  - name: Typography
+    parent: markdown
+    weight: 12
+  - name: Images
+    parent: markdown
+    weight: 14

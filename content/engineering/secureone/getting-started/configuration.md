@@ -11,7 +11,7 @@ tags:
 menu:
   sidenav:
     parent: SecureONE
-    weight: 1
+    weight: 2
 
 ---
 # Configuration

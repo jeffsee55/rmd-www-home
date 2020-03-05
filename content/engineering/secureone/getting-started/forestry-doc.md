@@ -9,7 +9,7 @@ tags:
 menu:
   sidenav:
     name: Forestry Menu Item
-    weight: 10
+    weight: 7
     parent: SecureONE
 
 ---
