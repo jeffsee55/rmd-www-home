@@ -50,5 +50,6 @@ fields:
       section: employees
   label: Alt Authors Test
 pages:
+- content/getting-started/markdown/testing-menu-entry.md
 - content/posts/test-post.md
 - content/product/secureone/secureone-documentation.md
