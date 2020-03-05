@@ -51,3 +51,5 @@ fields:
     config:
       required: false
     label: website
+pages:
+- content/employees/chief-of-staff.md
