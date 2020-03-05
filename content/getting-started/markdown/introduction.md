@@ -8,10 +8,6 @@ authors:
 tags:
 categories:
 toc: true
-menu:
-  sidenav:
-    parent: markdown
-    weight: 1
 ---
 
 ## Forking this Repo

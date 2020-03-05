@@ -8,10 +8,6 @@ authors:
 tags:
 categories:
 toc: true
-menu:
-  sidenav:
-    parent: markdown
-    weight: 7
 ---
 ## Code
 You can format blocks of code or commands in your content for greater visibility.

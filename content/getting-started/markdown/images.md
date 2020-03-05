@@ -8,10 +8,6 @@ authors:
 tags:
 categories:
 toc: true
-menu:
-  sidenav:
-    parent: markdown
-    weight: 3
 ---
 ## Images
 To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.

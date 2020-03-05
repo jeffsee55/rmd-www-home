@@ -7,10 +7,6 @@ authors:
 tags:
 categories:
 toc: true
-menu:
-  sidenav:
-    parent: shortcodes
-    weight: 3
 ---
 # Alerts
 

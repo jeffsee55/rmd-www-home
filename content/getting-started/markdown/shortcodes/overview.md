@@ -7,11 +7,6 @@ authors:
 tags:
 categories:
 toc: true
-menu:
-  sidenav:
-    identifier: shortcodes-overview
-    parent: shortcodes
-    weight: 1
 ---
 
 # Shortcodes

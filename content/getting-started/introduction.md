@@ -7,10 +7,5 @@ authors:
 tags:
 categories:
 toc: true
-menu:
-  sidenav:
-    identifier: introduction
-    parent: getting-started
-    weight: 1
 
 ---

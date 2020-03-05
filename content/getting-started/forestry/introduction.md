@@ -8,11 +8,6 @@ authors:
 tags:
 categories:
 toc: true
-menu:
-  sidenav:
-    identifier: forestry-intro
-    parent: forestry
-    weight: 1
 ---
 
 ## How to use Forestry
