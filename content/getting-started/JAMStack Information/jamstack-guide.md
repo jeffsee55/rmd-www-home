@@ -1,5 +1,7 @@
 ---
-authors: employees/tim-keeler.md
+authors:
+  - Tim Keeler
+  - Stephen Burgio
 tags:
 - jamstack
 categories:
@@ -14,8 +16,6 @@ menu:
   sidenav:
     parent: SecureONE
     weight: 2
-authors:
-  - Tim Keeler
-  - Stephen Burgio
+something: false
 ---
 # Main Title
