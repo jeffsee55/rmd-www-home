@@ -10,6 +10,9 @@ description: JAMStack Description
 toc: true
 alt_authors_test: []
 multiple_authors: []
+menu:
+  sidenav:
+    weight: 2
 
 ---
 # Main Title
