@@ -3,7 +3,7 @@ baseURL: "/"
 languageCode: en-us
 title: Remediant Home
 theme: rmd
-metaDataFormat: yaml
+metaDataFormat: toml
 pygmentsUseClasses: true
 pygmentsCodeFences: true
 pygmentsCodefencesGuessSyntax: true
