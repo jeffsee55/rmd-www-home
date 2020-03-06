@@ -60,6 +60,3 @@ fields:
       required: false
     label: Twitter
   label: Field Group
-pages:
-- content/employees/chief-of-staff.md
-- content/employees/founder-ceo.md
