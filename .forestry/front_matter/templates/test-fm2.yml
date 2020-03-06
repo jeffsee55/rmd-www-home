@@ -1,5 +1,5 @@
 ---
-label: Test FM
+label: Test FM2
 hide_body: false
 fields:
 - type: list
@@ -29,3 +29,6 @@ fields:
 - type: list
   name: multiple_authors
   label: multiple_authors
+- type: boolean
+  name: something
+  label: something
