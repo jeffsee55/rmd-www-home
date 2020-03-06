@@ -5,17 +5,22 @@ admin_path: https://home.remediant.io/admin
 webhook_url: 
 sections:
 - type: directory
+  path: content/employees
+  label: Employees
+  create: documents
+  match: "**/*"
+- type: directory
+  path: content/product
+  label: Product
+  create: all
+  match: "**/*"
+- type: directory
   path: content/getting-started
   label: Getting Started
   create: all
   match: "**/*"
   templates:
   - content-page
-- type: directory
-  path: content/employees
-  label: Employees
-  create: documents
-  match: "**/*"
 - type: directory
   path: content/posts
   label: Posts
