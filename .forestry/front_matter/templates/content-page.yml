@@ -57,6 +57,7 @@ fields:
     labelField: 
   label: Multiple Authors
 pages:
+- content/getting-started/JAMStack Information/index.md
 - content/getting-started/JAMStack Information/jamstack-guide.md
 - content/posts/test-post.md
 - content/product/secureone/secureone-documentation.md
