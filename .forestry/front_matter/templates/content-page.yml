@@ -58,4 +58,5 @@ fields:
   label: Multiple Authors
 pages:
 - content/getting-started/JAMStack Information/jamstack-guide.md
+- content/getting-started/New Folder/testing.md
 - content/posts/test-post.md
