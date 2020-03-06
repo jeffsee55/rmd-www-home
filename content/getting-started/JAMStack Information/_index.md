@@ -2,6 +2,6 @@
 title: JAMStack Information
 menu:
   sidenav:
-    weight: 2
+    weight: 1
 
 ---

@@ -13,6 +13,7 @@ multiple_authors: []
 menu:
   sidenav:
     weight: 1
+    parent: JAMStack Information
 
 ---
 # Main Title
