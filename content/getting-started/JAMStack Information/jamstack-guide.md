@@ -11,9 +11,8 @@ toc: true
 alt_authors_test: []
 multiple_authors: []
 menu:
-    sidebar:
-        weight: 1
-
+  sidebar:
+    weight: 1
 
 ---
 # Main Title
