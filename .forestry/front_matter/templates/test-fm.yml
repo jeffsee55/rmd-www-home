@@ -1,0 +1,31 @@
+---
+label: Test FM
+hide_body: false
+fields:
+- type: list
+  name: authors
+  label: authors
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: boolean
+  name: toc
+  label: toc
+- type: list
+  name: alt_authors_test
+  label: alt_authors_test
+- type: list
+  name: multiple_authors
+  label: multiple_authors
