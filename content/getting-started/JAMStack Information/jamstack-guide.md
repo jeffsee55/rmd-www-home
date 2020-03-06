@@ -11,8 +11,11 @@ toc: true
 alt_authors_test: []
 multiple_authors: []
 menu:
-  sidebar:
-    weight: 1
-
+  sidenav:
+    parent: SecureONE
+    weight: 2
+authors:
+  - Tim Keeler
+  - Stephen Burgio
 ---
 # Main Title
