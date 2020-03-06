@@ -8,10 +8,6 @@ tags:
 - SecureONE
 - Config
 - Tutorial
-menu:
-  sidenav:
-    parent: SecureONE
-    weight: 2
 
 ---
 # Configuration

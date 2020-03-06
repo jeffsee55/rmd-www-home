@@ -6,10 +6,6 @@ draft = true
 tags = ["SecureONE"]
 title = "SecureONE Documentation"
 toc = true
-[menu.sidenav]
-name = "Manual"
-parent = "SecureONE"
-weight = 1
 
 +++
 # Product Guide Structure
