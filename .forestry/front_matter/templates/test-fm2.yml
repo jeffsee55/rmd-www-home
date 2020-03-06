@@ -32,3 +32,28 @@ fields:
 - type: boolean
   name: something
   label: something
+- name: menu
+  type: field_group
+  config: {}
+  fields:
+  - name: sidenav
+    type: field_group
+    config: {}
+    fields:
+    - name: parent
+      type: text
+      config:
+        required: false
+      label: parent
+    - name: weight
+      type: number
+      label: weight
+      description: ''
+      default: '4'
+      required: true
+      config:
+        min: 
+        max: 
+        step: 
+    label: SideNav
+  label: Menu
