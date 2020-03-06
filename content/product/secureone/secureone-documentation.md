@@ -5,6 +5,10 @@ description = "SecureONE Product Documentation"
 tags = ["SecureONE"]
 title = "SecureONE Documentation"
 toc = true
+[menu.sidebar]
+name = "Documentation"
+parent = "SecureONE"
+weight = 1
 
 +++
 # Product Guide Structure
