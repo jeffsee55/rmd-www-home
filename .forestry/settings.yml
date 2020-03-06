@@ -5,23 +5,32 @@ admin_path: https://home.remediant.io/admin
 webhook_url: 
 sections:
 - type: directory
-  path: content/product/secureone
-  label: SecureONE
+  path: content/getting-started
+  label: Markdown Guide
   create: all
   match: "**/*"
+  templates:
+  - content-page
 - type: directory
   path: content/employees
   label: Employees
   create: documents
   match: "**/*"
 - type: directory
-  path: content/engineering
-  label: Engineering
+  path: content/product/secureone
+  label: SecureONE
   create: all
   match: "**/*"
 - type: directory
   path: content/posts
   label: Posts
+  create: all
+  match: "**/*"
+- type: heading
+  label: Departments
+- type: directory
+  path: content/engineering
+  label: Engineering
   create: all
   match: "**/*"
 upload_dir: static/uploads
