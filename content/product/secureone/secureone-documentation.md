@@ -2,7 +2,6 @@
 categories = ["Product"]
 date = 2020-03-04T08:00:00Z
 description = "SecureONE Product Documentation"
-draft = true
 tags = ["SecureONE"]
 title = "SecureONE Documentation"
 toc = true
