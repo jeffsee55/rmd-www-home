@@ -57,3 +57,5 @@ fields:
         step: 
     label: SideNav
   label: Menu
+pages:
+- content/product/test-fm-doc.md
