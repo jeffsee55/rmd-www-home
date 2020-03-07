@@ -11,8 +11,7 @@ multiple_authors: []
 something: false
 menu:
   sidenav:
-    weight: 4
     parent: ''
-draft: true
+    weight: 4
 
 ---
