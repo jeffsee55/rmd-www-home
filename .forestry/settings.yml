@@ -7,13 +7,27 @@ sections:
 - type: heading
   label: General Content
 - type: directory
-  path: content/product
-  label: Product
+  path: content/product/secureone
+  label: SecureONE
   create: all
   match: "**/*"
+  templates:
+  - content-page
 - type: directory
   path: content/posts
   label: Blog Posts
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/contribute
+  label: Contribute
+  create: all
+  match: "**/*"
+  templates:
+  - content-page
+- type: directory
+  path: content/authors
+  label: Authors
   create: all
   match: "**/*"
 - type: heading
