@@ -1,0 +1,22 @@
+---
+label: Author
+hide_body: false
+fields:
+- type: text
+  name: name
+  label: name
+- type: text
+  name: photo
+  label: photo
+- type: text
+  name: manager
+  label: manager
+- type: text
+  name: job_title
+  label: job_title
+- type: text
+  name: twitter
+  label: twitter
+- type: text
+  name: instagram
+  label: instagram
