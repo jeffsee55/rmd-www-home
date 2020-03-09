@@ -10,16 +10,11 @@ fields:
   name: date
   label: Date
 - name: authors
-  type: select
-  default: []
+  type: list
   config:
-    required: false
-    options: []
-    source:
-      type: pages
-      section: employees
-      file: 
-      path: 
+    use_select: false
+    min: 
+    max: 
   label: Authors
 - type: text
   name: description
@@ -37,24 +32,7 @@ fields:
   label: Categories
 - type: boolean
   name: toc
-  label: Table of Contents
+  label: Show Table of Contents
   description: Enable/disable the table of contents section
-- name: alt_authors_test
-  type: list
-  config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: pages
-      section: employees
-  label: Alt Authors Test
-- name: multiple_authors
-  type: field_group_list
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Multiple Authors
 pages:
 - content/posts/test-post.md
