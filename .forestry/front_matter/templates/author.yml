@@ -4,21 +4,19 @@ hide_body: false
 fields:
 - type: text
   name: name
-  label: Name
-- name: photo
-  type: file
-  config:
-    maxSize: 250
-  label: Photo
+  label: name
 - type: text
-  name: Manager
-  label: Manager
+  name: photo
+  label: photo
+- type: text
+  name: manager
+  label: manager
 - type: text
   name: job_title
-  label: Job Title
+  label: job_title
 - type: text
   name: twitter
-  label: Twitter
+  label: twitter
 - type: text
   name: instagram
-  label: Instagram
+  label: instagram
