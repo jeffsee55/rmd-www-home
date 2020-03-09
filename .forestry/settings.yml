@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: https://home.remediant.io/admin
 webhook_url: 
 sections:
+- type: heading
+  label: General Content
 - type: directory
   path: content/employees
   label: Employees
