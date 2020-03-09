@@ -18,6 +18,34 @@ sections:
   match: "**/*"
 - type: heading
   label: Departments
+- type: directory
+  path: content/teams/engineering
+  label: Engineering
+  create: all
+  match: "**/*"
+  templates:
+  - content-page
+- type: directory
+  path: content/teams/marketing
+  label: Marketing
+  create: all
+  match: "**/*"
+  templates:
+  - content-page
+- type: directory
+  path: content/teams/hr
+  label: HR
+  create: all
+  match: "**/*"
+  templates:
+  - content-page
+- type: directory
+  path: content/teams/sales
+  label: Sales
+  create: all
+  match: "**/*"
+  templates:
+  - content-page
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
