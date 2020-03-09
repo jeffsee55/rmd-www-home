@@ -1,16 +1,15 @@
-+++
-categories = ["Product"]
-date = 2020-03-04T08:00:00Z
-description = "SecureONE Product Documentation"
-tags = ["SecureONE"]
-title = "SecureONE Documentation"
-toc = true
-[menu.sidebar]
-name = "Documentation"
-parent = "SecureONE"
-weight = 1
-
-+++
+---
+title: SecureONE Guide
+categories:
+  - Product
+tags:
+- SecureONE
+menu:
+  sidenav:
+    parent: secureone
+    weight: 1
+toc: true
+---
 # Product Guide Structure
 
 - Initial straw man outline
