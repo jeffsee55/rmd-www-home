@@ -38,4 +38,5 @@ fields:
   label: Show Table of Contents
   description: Enable/disable the table of contents section
 pages:
+- content/contribute/testing/test-document.md
 - content/posts/test-post.md
