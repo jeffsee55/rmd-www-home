@@ -2,8 +2,8 @@
 title: Using Markdown
 menu:
   sidenav:
-    parent: contribute
+    parent: Contribution Guide
     identifier: markdown
-    weight: 14
+    weight: 3
 
 ---

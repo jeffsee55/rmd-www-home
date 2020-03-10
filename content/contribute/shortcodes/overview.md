@@ -8,8 +8,8 @@ categories:
 toc: true
 menu:
   sidenav:
-    parent: shortcodes
-    weight: 7
+    parent: Using Shortcodes
+    weight: 1
 draft: true
 
 ---

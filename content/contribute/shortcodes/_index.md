@@ -2,8 +2,8 @@
 title: Using Shortcodes
 menu:
   sidenav:
-    parent: contribute
+    parent: Contribution Guide
     identifier: shortcodes
-    weight: 9
+    weight: 2
 
 ---

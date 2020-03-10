@@ -9,8 +9,8 @@ categories:
 toc: true
 menu:
   sidenav:
-    parent: markdown
-    weight: 12
+    parent: Using Markdown
+    weight: 4
 draft: true
 
 ---
