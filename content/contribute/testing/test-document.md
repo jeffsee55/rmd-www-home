@@ -10,6 +10,9 @@ authors:
 - authors/stephen-burgio/_index.md
 description: Test Page
 toc: true
+menu:
+  sidenav:
+    weight: 4
 
 ---
 # Big Heading
