@@ -12,7 +12,8 @@ description: Test Page
 toc: true
 menu:
   sidenav:
-    weight: 4
+    weight: 1
+    parent: Contribution Guide
 
 ---
 # Big Heading

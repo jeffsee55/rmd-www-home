@@ -3,7 +3,7 @@ title: Forestry
 menu:
   sidenav:
     parent: Contribution Guide
-    weight: 1
+    weight: 2
 
 ---
 ## How to use Forestry
