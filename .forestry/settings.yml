@@ -7,6 +7,11 @@ sections:
 - type: heading
   label: General Content
 - type: directory
+  path: content/authors
+  label: Authors
+  create: all
+  match: "**/*"
+- type: directory
   path: content/product/secureone
   label: SecureONE
   create: all
@@ -25,11 +30,6 @@ sections:
   match: "**/*"
   templates:
   - content-page
-- type: directory
-  path: content/authors
-  label: Authors
-  create: all
-  match: "**/*"
 - type: heading
   label: Departments
 - type: directory
