@@ -9,8 +9,8 @@ categories:
 toc: true
 menu:
   sidenav:
-    parent: forestry
-    weight: 3
+    parent: Forestry
+    weight: 1
 draft: true
 
 ---

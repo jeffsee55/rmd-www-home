@@ -4,6 +4,6 @@ menu:
   sidenav:
     parent: contribute
     identifier: markdown
-    weight: 15
+    weight: 14
 
 ---

@@ -9,7 +9,7 @@ toc: true
 menu:
   sidenav:
     parent: shortcodes
-    weight: 7
+    weight: 6
 draft: true
 
 ---
