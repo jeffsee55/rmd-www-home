@@ -17,7 +17,5 @@ menu:
   sidenav:
   - name: Teams
     weight: 19
-    identifier: teams
   - name: SecureONE
     weight: 5
-    identifier: secureone
