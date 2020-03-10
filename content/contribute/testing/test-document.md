@@ -5,7 +5,7 @@ tags:
 categories:
 - Tests
 title: Test Document
-date: 2020-03-10T07:00:00.000+00:00
+date: 2020-03-10T00:00:00.000-07:00
 authors:
 - authors/stephen-burgio/_index.md
 description: Test Page

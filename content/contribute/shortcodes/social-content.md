@@ -1,6 +1,6 @@
 ---
 title: Social Content
-date: 2019-10-17T15:39:41.000+00:00
+date: 2019-10-17T08:39:41.000-07:00
 description: 
 authors: 
 tags: 
@@ -9,7 +9,7 @@ toc: true
 menu:
   sidenav:
     parent: Using Shortcodes
-    weight: 4
+    weight: 8
 draft: true
 
 ---
