@@ -1,14 +1,15 @@
 ---
 title: SecureONE Guide
 categories:
-  - Product
+- Product
 tags:
 - SecureONE
+toc: true
 menu:
   sidenav:
-    parent: secureone
+    parent: SecureONE
     weight: 1
-toc: true
+
 ---
 # Product Guide Structure
 

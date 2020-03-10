@@ -1,18 +1,18 @@
 ---
 title: Cheatsheet
-date: 2019-10-16T20:49:13-07:00
-draft: true
-description:
-authors:
-tags:
-categories:
+date: 2019-10-17T03:49:13.000+00:00
+description: 
+authors: 
+tags: 
+categories: 
 toc: true
 menu:
   sidenav:
     parent: markdown
-    weight: 1
----
+    weight: 8
+draft: true
 
+---
 ## Overview
 Markdown is designed to be a simple syntax to display common types of information, without needing to know HTML or web design. This site automatically renders Markdown formatted files into rich HTML content displayed here on this website.
 

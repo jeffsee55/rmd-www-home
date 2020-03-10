@@ -7,11 +7,12 @@ authors:
 tags: 
 categories: 
 toc: true
-draft: true
 menu:
   sidenav:
     parent: markdown
-    weight: 1
+    weight: 14
+draft: true
+
 ---
 # Typography
 <br>

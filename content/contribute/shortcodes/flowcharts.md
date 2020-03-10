@@ -1,16 +1,17 @@
 ---
 title: Flowcharts
-date: 2019-10-17T22:06:10-07:00
-draft: true
-description:
-authors:
-tags:
-categories:
+date: 2019-10-18T05:06:10.000+00:00
+description: 
+authors: 
+tags: 
+categories: 
 toc: true
 menu:
   sidenav:
     parent: shortcodes
-    weight: 1
+    weight: 10
+draft: true
+
 ---
 # Mermaid Flowcharts
 [Mermaid](https://mermaidjs.github.io/) is a library helping you to generate diagram and flowcharts from text, in a similar manner as Markdown.

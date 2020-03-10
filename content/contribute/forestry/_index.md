@@ -4,7 +4,7 @@ menu:
   sidenav:
     parent: contribute
     identifier: forestry
-    weight: 1
----
+    weight: 7
 
+---
 ## How to use Forestry

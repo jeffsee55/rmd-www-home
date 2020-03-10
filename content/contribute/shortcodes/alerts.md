@@ -1,16 +1,17 @@
 ---
 title: Alerts
-date: 2019-10-16T20:57:50-07:00
-draft: true
-description:
-authors:
-tags:
-categories:
+date: 2019-10-17T03:57:50.000+00:00
+description: 
+authors: 
+tags: 
+categories: 
 toc: true
 menu:
   sidenav:
     parent: shortcodes
-    weight: 1
+    weight: 9
+draft: true
+
 ---
 # Alerts
 

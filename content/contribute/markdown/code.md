@@ -1,17 +1,18 @@
 ---
 title: Code Highlighting
-date: 2019-10-16T20:49:13-07:00
-draft: true
-description:
+date: 2019-10-17T03:49:13.000+00:00
+description: 
 authors:
-    - Tim Keeler
-tags:
-categories:
+- Tim Keeler
+tags: 
+categories: 
 toc: true
 menu:
   sidenav:
     parent: markdown
-    weight: 1
+    weight: 17
+draft: true
+
 ---
 ## Code
 You can format blocks of code or commands in your content for greater visibility.
@@ -68,4 +69,3 @@ alert(s);
 s = "Python syntax highlighting"
 print s
 ```
-

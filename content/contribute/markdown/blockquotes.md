@@ -1,19 +1,19 @@
 ---
 title: Blockquotes
-date: 2019-10-16T20:49:13-07:00
-draft: true
-description:
+date: 2019-10-17T03:49:13.000+00:00
+description: 
 authors:
-    - Tim Keeler
-tags:
-categories:
+- Tim Keeler
+tags: 
+categories: 
 toc: true
 menu:
   sidenav:
     parent: markdown
-    weight: 5
----
+    weight: 20
+draft: true
 
+---
 ## Blockquotes
 To create a blockquote, add a > in front of a paragraph.
 ```

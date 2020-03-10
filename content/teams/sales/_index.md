@@ -3,5 +3,6 @@ title: Sales
 menu:
   sidenav:
     parent: teams
-    weight: 1
+    weight: 2
+
 ---

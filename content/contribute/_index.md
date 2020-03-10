@@ -3,5 +3,6 @@ title: Contribution Guide
 menu:
   sidenav:
     identifier: contribute
-    weight: 10
+    weight: 21
+
 ---

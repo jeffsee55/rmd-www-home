@@ -1,18 +1,18 @@
 ---
 title: Social Content
-date: 2019-10-17T08:39:41-07:00
-draft: true
-description:
-authors:
-tags:
-categories:
+date: 2019-10-17T15:39:41.000+00:00
+description: 
+authors: 
+tags: 
+categories: 
 toc: true
 menu:
   sidenav:
     parent: shortcodes
-    weight: 1
----
+    weight: 12
+draft: true
 
+---
 ### Rich Content using Shortcodes
 Using rich content shortcodes, you can embed useful external content directly into your page. Below are types of external content you can embed.
 
