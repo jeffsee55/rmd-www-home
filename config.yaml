@@ -16,8 +16,8 @@ taxonomies:
 menu:
   sidenav:
   - name: Contribution Guide
-    weight: 4
-  - name: SecureONE
     weight: 3
-  - name: Teams
+  - name: SecureONE
     weight: 2
+  - name: Teams
+    weight: 1
