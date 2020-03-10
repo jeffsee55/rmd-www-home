@@ -4,6 +4,6 @@ menu:
   sidenav:
     parent: contribute
     identifier: shortcodes
-    weight: 13
+    weight: 10
 
 ---

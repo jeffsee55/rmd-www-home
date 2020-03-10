@@ -2,7 +2,7 @@
 title: Engineering
 menu:
   sidenav:
-    parent: teams
-    weight: 3
+    parent: Teams
+    weight: 2
 
 ---

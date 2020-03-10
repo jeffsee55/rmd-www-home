@@ -2,7 +2,7 @@
 title: Marketing
 menu:
   sidenav:
-    parent: teams
-    weight: 1
+    parent: Teams
+    weight: 3
 
 ---

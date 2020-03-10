@@ -2,7 +2,7 @@
 title: HR
 menu:
   sidenav:
-    parent: teams
-    weight: 4
+    parent: Teams
+    weight: 1
 
 ---

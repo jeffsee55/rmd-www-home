@@ -15,7 +15,7 @@ taxonomies:
   category: categories
 menu:
   sidenav:
-  - name: Teams
-    weight: 19
   - name: SecureONE
-    weight: 5
+    weight: 2
+  - name: Teams
+    weight: 1
