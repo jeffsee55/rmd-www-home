@@ -5,7 +5,7 @@ tags:
 categories:
 - Tests
 title: Test Document
-date: 2020-03-10T07:00:00+00:00
+date: 2020-03-10T07:00:00.000+00:00
 authors:
 - authors/stephen-burgio/_index.md
 description: Test Page
@@ -13,7 +13,7 @@ toc: true
 menu:
   sidenav:
     weight: 1
-    parent: Contribution Guide
+    parent: Testing
 
 ---
 # Big Heading
