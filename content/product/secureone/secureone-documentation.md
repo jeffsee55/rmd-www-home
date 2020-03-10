@@ -7,7 +7,7 @@ tags:
 toc: true
 menu:
   sidenav:
-    parent: SecureONE
+    parent: secureone
     weight: 1
 
 ---
