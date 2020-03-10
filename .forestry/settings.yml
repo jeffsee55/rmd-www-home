@@ -20,7 +20,7 @@ sections:
   match: "**/*"
 - type: directory
   path: content/contribute
-  label: Contribute
+  label: Contribution Guide
   create: all
   match: "**/*"
   templates:
