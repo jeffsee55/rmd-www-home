@@ -19,3 +19,5 @@ menu:
     weight: 2
   - name: Teams
     weight: 1
+  - name: Contribution Guide
+    weight: 3
